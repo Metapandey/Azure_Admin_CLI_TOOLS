@@ -6,3 +6,8 @@ az vm create \
   --admin-username azureuser \
   --generate-ssh-keys \
   --verbose
+
+
+
+
+#Notice that the Azure CLI tool waits while the VM is being created. You can add the --no-wait option to tell the Azure CLI tool to return immediately and have #Azure continue creating the VM in the background. This is useful if you're executing the command in a script.
