@@ -1,0 +1,8 @@
+az vm create \
+  --resource-group learn-fa0478ba-0ccc-4ba2-954d-7113eefaeb63 \
+  --location westus \
+  --name SampleVM \
+  --image UbuntuLTS \
+  --admin-username azureuser \
+  --generate-ssh-keys \
+  --verbose
