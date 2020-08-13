@@ -10,4 +10,5 @@ az vm create \
 
 
 
-#Notice that the Azure CLI tool waits while the VM is being created. You can add the --no-wait option to tell the Azure CLI tool to return immediately and have #Azure continue creating the VM in the background. This is useful if you're executing the command in a script.
+#Notice that the Azure CLI tool waits while the VM is being created. You can add the --no-wait option to tell the Azure CLI tool to return immediately and have Azure continue creating the VM in the background. This is useful if you're executing the command in a script.
+#IN ordert to connect to vm use this command -ssh azureuser@<public-ip-address>
